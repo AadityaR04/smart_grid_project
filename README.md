@@ -12,7 +12,6 @@ The integration of smart grid technologies is revolutionizing the way electricit
 
 <img src="https://github.com/TabithaSneha/smart_grid_project/assets/87858655/86036172-d5ff-457f-a781-e7e2eb9f355b" height="250" width="800" >
 
-
 A 9V Battery is connected to the Load, consisting of 3 LEDs- the Red LED indicates ‘Most Critical Load’, the Yellow LED indicates ‘Less Critical Load’ and the White LED indicates ‘Least Critical Load’, through a Boost Converter. On the Grid side, single-phase AC supply of 230V is taken and a 230/15V transformer steps down the voltage to 15V. The input AC voltage is passed through an AC-DC rectifier to get a DC output voltage. This is passed through a Buck Converter which is in turn connected to the Load.
 
 ## Methodology:-
@@ -54,7 +53,6 @@ A 9V Battery is connected to the Load, consisting of 3 LEDs- the Red LED indicat
 
 ### Hardware Setup:
 
-<img src="https://github.com/TabithaSneha/smart_grid_project/assets/87858655/fefd2af5-3107-42c5-8e00-abd9d5f40486" height="450" width="600" >
 <img src="https://github.com/TabithaSneha/smart_grid_project/assets/87858655/c3dbe5be-9199-4ac9-a06d-887d40250ce7" height="450" width="600" >
 
 ### Link to View the Project:
