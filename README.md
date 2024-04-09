@@ -9,9 +9,8 @@ This project showcases smart load management within a grid incorporating a batte
 The integration of smart grid technologies is revolutionizing the way electricity is generated, distributed, and consumed, particularly in grid environments. This mini project focuses on the implementation of smart load management within a grid, aiming to enhance energy efficiency, reliability, and resilience. The grid includes a battery system connected to three loads with varying levels of criticality: most critical, less critical, and least critical. By employing a bidirectional DC-DC converter capable of operating in buck and boost modes, the project aims to optimize power flow within the grid. It involves prioritized load shedding as the battery's State of Charge (SOC) diminishes, ensuring the continuous supply of essential services. Furthermore, grid integration is utilized to recharge the battery when its SOC reaches a specified threshold, while also supplying power to the loads. This project showcases automatic load switching and smart power management techniques, with potential applications for integrating renewable energy sources such as solar photovoltaic (PV) and fuel cells (FC) into the grid infrastructure. Through this endeavor, the project seeks to contribute to the advancement of sustainable and resilient energy systems in the context of modern grid environments.
 
 ## Schematic Diagram:-
-<img src="https://github.com/TabithaSneha/smart_grid_project/assets/87858655/fefd2af5-3107-42c5-8e00-abd9d5f40486" height="350" width="600" >
-<!-- ![Complete1-min](https://github.com/TabithaSneha/smart_grid_project/assets/87858655/fefd2af5-3107-42c5-8e00-abd9d5f40486)
-![Pic](https://drive.google.com/file/d/1nZb-O7rYBhlm1o0pa5X764ovhIhzZAsA/view?usp=drive_link) -->
+
+<img src="https://github.com/TabithaSneha/smart_grid_project/assets/87858655/86036172-d5ff-457f-a781-e7e2eb9f355b" height="450" width="600" >
 
 A 9V Battery is connected to the Load, consisting of 3 LEDs- the Red LED indicates ‘Most Critical Load’, the Yellow LED indicates ‘Less Critical Load’ and the White LED indicates ‘Least Critical Load’, through a Boost Converter. On the Grid side, single-phase AC supply of 230V is taken and a 230/15V transformer steps down the voltage to 15V. The input AC voltage is passed through an AC-DC rectifier to get a DC output voltage. This is passed through a Buck Converter which is in turn connected to the Load.
 
@@ -54,7 +53,7 @@ A 9V Battery is connected to the Load, consisting of 3 LEDs- the Red LED indicat
 
 ### Hardware Setup:
 
-![Pic](https://drive.google.com/file/d/1XhrxDBu41QPxL5KhO86EAQ_l34KUKQlk/view?usp=drive_link)
+<img src="https://github.com/TabithaSneha/smart_grid_project/assets/87858655/fefd2af5-3107-42c5-8e00-abd9d5f40486" height="450" width="600" >
 
 ### Link to View the Project:
 
