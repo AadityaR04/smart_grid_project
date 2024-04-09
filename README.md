@@ -2,7 +2,7 @@
 
 ***
 
-This project showcases smart load management within a grid incorporating a battery system and three loads of varying criticality levels.
+This project demonstrates smart load management within a grid by incorporating a battery and three loads of varying levels of criticality.
 
 ## Introduction:-
 
