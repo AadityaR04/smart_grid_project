@@ -33,13 +33,13 @@ A 9V Battery is connected to the Load, consisting of 3 LEDs- the Red LED indicat
 
 #### Load Switching Using Battery SoC Measurement:-
 
-* First, in the Discharge Cycle, switch S1 is closed and switches S2 and S3 are open. The battery discharges to the Load through the boost converter that steps up the battery voltage from 9V to 15V. 
+* First, in the Discharge Cycle, switch S1 is closed and switches S2 and S3 are open. The battery discharges to the Load through the boost converter (Boost mode of operation) that steps up the battery voltage from 9V to 15V. 
 * The battery is able to supply power to all 3 LEDs from 80% SoC to 25% SoC. 
 * As soon as the SoC reaches 30%, the least critical load (White LED) turns off and when the SoC reaches 25%, the less critical load (Yellow LED) turns off.
-* When the SoC reaches 25%, the Charge Cycle comes into action where switch S1 is open and switches S2 and S3 are closed. The grid (or the AC supply) supplies power to the Load and charges the Battery via a buck converter. The boost converter is bypassed in this cycle.
-* A transformer steps down 230V to 15V AC supply. The 1-ph rectifier bridge converts 15V AC supply to 15 V DC supply.
+* When the SoC reaches 25%, the Charge Cycle comes into action where switch S1 is open and switches S2 and S3 are closed. The grid (or the AC supply) supplies power to the load and charges the battery via a buck converter (Buck mode of operation). The boost converter is bypassed in this cycle.
+* A transformer steps down 230V to 15V AC supply. The 1-ph rectifier bridge converts 15V AC supply to 20 V DC supply.
 * This voltage gets stepped down to 9V in order to charge the battery till it reaches 80% SoC and supply power to the 3 LEDs once again.
-* Once the battery reaches 80% SoC, the Discharge Cycle comes back into action and the process repeats again.
+* Once the battery reaches 80% SoC, the Discharge Cycle comes back into action and the process repeats.
 
 #### Battery SoC Measurement:-
 
