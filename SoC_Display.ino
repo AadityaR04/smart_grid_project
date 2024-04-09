@@ -78,9 +78,7 @@ void loop() {
 
   float SoC = (AvgC/750) * 100; //Assuming 9V battery has initial mAh as 750 mAh
 
-
   lcd_1.setCursor(0, 1);
-  // print the number of seconds since reset:
   lcd_1.print(SoC);
-  delay(100);  // Wait for 1000 millisecond(s)
+  delay(100);
 }
