@@ -25,7 +25,7 @@ A 9V Battery is connected to the Load, consisting of 3 LEDs- the Red LED indicat
 * Hi-Watt 6F22M Battery (9V, 750 mAh)
 * LCD 16×2 Blue/Green Display 1602
 * MOSFET IRF540 N Channel
-* 230 V/15V Step-down Transformer
+* 230V/15V Step-down Transformer
 * LED 5mm - Red, Yellow, White
 * Resistors, Capacitors and Diodes
 
